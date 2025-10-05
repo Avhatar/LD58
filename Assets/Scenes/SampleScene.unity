@@ -80429,16 +80429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9170057e063fb8d4d8d426ff50656145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 20
-  acceleration: 5
-  deceleration: 5
-  edgeSize: 20
-  minBounds: {x: -50, y: -50}
-  maxBounds: {x: 50, y: 50}
   cameraMain: {fileID: 977858845012923238}
-  zoomSpeed: 100
-  minHeight: 10
-  maxHeight: 60
 --- !u!4 &7917813871252985534
 Transform:
   m_ObjectHideFlags: 0

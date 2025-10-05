@@ -94,6 +94,7 @@ public class UI : MonoBehaviour
             {
                 var clip = Core.instance.globalSettings.barkCharSounds[
                     Random.Range(0, Core.instance.globalSettings.barkCharSounds.Count)];
+                uiAudioSource.volume = 0.1f;
                 uiAudioSource.PlayOneShot(clip);
             }
 
